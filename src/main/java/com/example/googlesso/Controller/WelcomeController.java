@@ -1,13 +1,11 @@
-package com.example.googlesso;
+package com.example.googlesso.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.security.Principal;
+
 @RestController
 public class WelcomeController {
 
-    @GetMapping("/")
-    public String welcome(){
-        return "Welcome";
-    }
 }
